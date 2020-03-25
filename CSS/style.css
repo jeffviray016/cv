@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   /* above code element will center all inside that doesn't have a width set. */
@@ -35,11 +36,17 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+}
+
+p {
+  line-height: 2;
 }
 
 .top-container {
@@ -48,21 +55,15 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container
-{
-
-background-color: #fcf8f3;
-
+.middle-container {
+  background-color: #fcf8f3;
+  margin: 100px 0;
 }
 
-.bottom-container
-
-{
-padding: 30px;
-background-color: #66BFBF;
-color: #11999E;
-
-
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+  color: #11999E;
 }
 
 .pro {
@@ -72,14 +73,14 @@ color: #11999E;
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .ProfilePic {
@@ -114,7 +115,6 @@ color: #11999E;
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .translator-description
@@ -128,32 +128,20 @@ to floating and non-floating elements.
 */
   {
   clear: right;
-
 }
-
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 4px;
-  width: 5%;
-
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
-.copyright
-
-{
-
-color: #EAF6F6;
-
+.copyright {
+  color: #EAF6F6;
 }
 
-
-.btn
-
-{
-
+.btn {
   display: inline-block;
   padding: 15px 25px;
   font-size: 15px;
@@ -166,5 +154,19 @@ color: #EAF6F6;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message
+
+{
+
+width: 40%;
+margin: 40px auto 60px;
+padding-bottom: 20px;
 
 }
